@@ -192,7 +192,11 @@ h4 a {
     }
 
 }
-
+@media(max-width:992px) {
+    .contact-icon {
+        width: 30px;
+    }
+}
 @media(min-width:768.02px) {
     h4 a {
         display: block;
