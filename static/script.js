@@ -188,11 +188,7 @@ function gerarPasteis() {
     });
 }
 let bebidas = [
-    {nome: 'SUCO DE LARANJA', preco: 0},     
-    {nome: 'FANTA LARANJA 2L', preco: 8.00},
-    {nome: 'FANTA UVA', preco: 0},
-    {nome: 'SPRITE LIMÃO', preco: 0},
-    {nome: 'SCHWEPPES', preco: 0},
+    {nome: 'FANTA UVA 2L', preco: 12.00},
     {nome: 'RED BULL', preco: 10.00},
     {nome: 'TONICA 350ML', preco: 4.00},
     {nome: 'H2OH! 500ML', preco: 5.00}
@@ -205,6 +201,24 @@ let categorias = {
         {nome: 'MINEIRO 600ML', preco: 6.00},
         {nome: 'MINEIRO GARRAFA 200ML', preco: 3.00},
         {nome: 'MINEIRO LATA', preco: 4.00}
+    ],
+    "SUCO DE LARANJA" : [
+        {nome:'SUCO DE LARANJA 500ML' , preco: 10.00 },
+        {nome:'SUCO DE LARANJA 400ML' , preco: 7.00 },
+        {nome:'SUCO DE LARANJA 300ML' , preco: 5.00},
+    ],
+    "FANTA LARANJA" : [
+        {nome:'FANTA LARANJA 2L', preco: 12.00 },
+        {nome:'FANTA LARANJA 1.5L' , preco: 9.00 },
+        {nome:'FANTA LARANJA 1L' , preco: 8.00 },
+    ],
+    "SPRITE LIMÃO" : [
+        {nome:'SPRITE LIMÃO 2L' , preco: 12.00},
+        {nome:'SPRITE LIMÃO 1L' , preco: 8.00},
+    ],
+    "SCHWEPPES" : [
+        {nome: 'SCHWEPPES 1.5L' , preco: 9.00 },
+        {nome: 'SCHWEPPES 310ML', preco: 4.00 },
     ],
     "PEPSI": [
         {nome: 'PEPSI 2L', preco: 8.50},
