@@ -75,7 +75,7 @@ function gerarAdicionais() {
         colAdicionais.innerHTML = `
             <div class="card h-100" style="background-color: linear-gradient(#f1f07f, #ffee06);">
                 <div class="card-body">
-                    <h5 class="card-title adicional d-flex justify-content-between">${adicional.nome}
+                    <h5 class="card-title adicional ajustetitulo d-flex justify-content-between">${adicional.nome}
                     <button class="btn btn-link p-0 " data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}" >
                         <i class="bi bi-chevron-down fs-5" style="color: #000;" ></i>
                     </button>
